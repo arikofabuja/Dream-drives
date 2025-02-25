@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Drives: Find Your Perfect Ride</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dream Drives: Find Your Perfect Ride</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <p>Discover the ultimate car buying experience at Dream Drives. We offer an impressive selection of new and pre-owned vehicles, all ready to deliver the thrill of the drive. Our dedicated team is here to help you choose your ideal car with ease and confidence. Drive your dream today at Dream Drives.</p>
+    </section>
+    <section class="featured-cars">
+        <h2>Featured Cars</h2>
+        <div class="car-list">
+            <!-- Example Car -->
+            <div class="car">
+                <img src="images/car1.jpg" alt="Car Model 1">
+                <h3>Car Model 1</h3>
+                <p>Price: ₦5,000,000</p>
+                <a href="inventory.html">View Details</a>
+            </div>
+            <!-- Add more cars as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Dream Drives. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dream Drives</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p>Email: info@dreamdrives.ng</p>
+        <p>Phone: +234-800-123-4567</p>
+        <p>Address: Plot 123, Central Business District, Abuja, Nigeria</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Dream Drives. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-cars, .inventory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.car {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
